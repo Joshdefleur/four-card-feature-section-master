@@ -1,0 +1,374 @@
+h1{
+    font-size: 35px;
+    margin: 0;
+    opacity: 0.8;
+}
+
+h2, h3{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+
+}
+
+p{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+}
+
+.space{
+    padding: 40px;
+}
+
+
+
+.titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 38%;
+    height: 100%;
+    gap: 15px;
+}
+
+.bigTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bigText{
+    width: 100%;
+    text-align-last: justify;
+    text-align: justify;
+    width: 80%;
+}
+
+.tech{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.delivery{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+
+
+
+
+.subtitles{
+    text-align: center;
+    font-size: 13px;
+    width: 99%;
+    
+}
+
+.sub{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    opacity: 0.8;
+}
+
+
+.subtitle{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    opacity: 0.8;
+}
+
+
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.subtext{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    opacity: 0.8;
+    font-size: 13px;
+}
+
+.tit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inbox{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    width: 85%;
+}
+
+
+.subjectContainer{
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+    padding: 30px;
+
+}
+
+
+.subinterior{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+#Supervisor{
+    border-style: solid;
+    border-width: 4px 0 0 0;
+    border-color: teal;
+}
+
+#TeamBuilder{
+    border-style: solid;
+    border-width: 4px 0 0 0;
+    border-color: red;
+}
+
+#Karma{
+    border-style: solid;
+    border-width: 4px 0 0 0;
+    border-color: goldenrod;
+}
+
+#Calculator{
+    border-style: solid;
+    border-width: 4px 0 0 0;
+    border-color: blue;
+}
+
+
+.subimg{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+}
+
+.boxRow-one{
+    width: 28%;
+}
+
+.boxRow-two{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 28%;
+}
+
+
+/*phone*/
+@media(max-width: 480px){
+    .inbox{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .boxRow-one{
+        width: 100%;
+    }
+
+    .boxRow-two{
+        width: 100%;
+    }
+
+    .titles{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    body{
+        margin: 0 20px 0 20px;
+    }
+
+    .bigText{
+        width: 100%;
+    }
+}
+
+/*ipad*/
+@media(min-width: 481px) and (max-width: 599px){
+    .inbox{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .boxRow-one{
+        width: 100%;
+    }
+
+    .boxRow-two{
+        width: 100%;
+    }
+
+    .titles{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+
+    body{
+        margin: 0 20px 0 20px;
+    }
+
+    .bigText{
+        width: 100%;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 25px;
+    }
+}
+
+/*laptop*/
+@media(min-width: 600px) and (max-width: 787px){
+    .titles{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 45px;
+    }
+
+    h2{
+        font-size: 35px;
+    }
+
+    p{
+        font-size: 25px;
+    }
+
+    h3{
+        font-size: 28px;
+    }
+
+    body{
+        margin: 0 20px 0 20px;
+    }
+
+    .bigText{
+        width: 100%;
+    }
+
+    .inbox{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .boxRow-one{
+        width: 100%;
+    }
+
+    .boxRow-two{
+        width: 100%;
+    }
+
+}
+
+/*Desktop*/
+@media(min-width: 788px) and (max-width: 1029px){
+    .titles{
+        width: 68.2%;
+    }
+
+    .inbox{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+
+    h2{
+        font-size: 28px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+}
+
+/*large screen*/
+@media(min-width: 1030px) and (max-width: 1201px){
+    .titles{
+        width: 52%;
+    }
+}
+
+/* fix */ 
+@media(min-width: 1202px) and (max-width: 1406px){
+    .titles{
+        width: 45%;
+    }
+}
+
+
+/* where it works*/
+@media(min-width: 1407px) and (max-width: 1888px){
+
+}
+
+/* huge */
+@media(min-width: 1889px){
+    h1{
+        font-size: 45px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+}
+
+
